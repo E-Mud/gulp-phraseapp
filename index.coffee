@@ -141,4 +141,5 @@ exports.download = (options={}) ->
         ))
 
         next()
-
+        
+      push(null, _.nil);
